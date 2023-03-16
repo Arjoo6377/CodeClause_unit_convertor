@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>unit convertor</h1>
+    <div class="container">
+        <div class="column">
+            <h2>input</h2>
+            <input type="text" id="initial" class="abc">
+
+        </div>
+        <div class="column">
+            <h2>select unit</h2>
+            <select class="abc" id="select">
+                <option selected class="abc">convert from</option>
+                <option value="m">M</option>
+                <option value="c">Km</option>
+                <option value="k">Cm</option>
+            </select>
+
+        </div>
+        <div>
+            <h2>result</h2>
+            <input type="text" id="result" class="abc">
+        </div>
+        <div>
+            <button type="submit" class="btn" onclick="convert()">convert</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
